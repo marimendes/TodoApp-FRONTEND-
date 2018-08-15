@@ -2,6 +2,7 @@ import React from 'react'
 import IconButton from '../template/iconButton'
 
 export default props => {
+
 	const renderRows = () => {
 		const list = props.list || []
 		return list.map(todo => (
